@@ -1,38 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+ul {
+    list-style: none;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    padding: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.footer {
+    margin-top: auto;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer-icon {
+    padding:10px;
+    margin-left: 20px;
+    float: right;
+}
+
+.btn {
+    font-family: 'Oswald';
+    display: inline-block;
+    background: rgb(250, 177, 169);
+    color: black;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background 1s;
+    text-decoration: none;
   }
-}
+  .btn:hover {
+    background-color: rgb(250, 211, 214);
+    border: black solid 3px;
+    font-weight: 700;
+    width: 350px;
+    text-align: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    border-bottom: solid black 1px;
   }
-}
+
+  h1 {
+    font-family: 'Oswald';
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 400px;
+    /* margin: 50px; */
+  }
+
+
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-left: 25px;
+    
+  }
+
+  .portfolio > div {
+    width: 300px;
+    margin-bottom: 20px;
+
+  }
+
+  
+
+
+  p{
+    width: 270px;
+    overflow-wrap: break-word;
+    font-family: 'oswald';
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 884px) {
+    form {
+      width:600px;
+      left:200px;
+    }
+    .btn:hover {
+      background-color: rgb(250, 211, 214);
+      border: black solid 3px;
+      font-weight: 700;
+      width: auto;
+      text-align: center;
+  
+    }
+  }
+
+  @media only screen and (max-width: 625px) {
+    
+    .list{
+      margin-top:80px;
+    }
+
+    form {
+      position:relative;
+      left: -200px;
+    }
+  }
+  
+
+ 
+
+
+
+  
+  
+
+ 
+
+  
+

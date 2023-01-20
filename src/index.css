@@ -1,13 +1,29 @@
+html {
+  background: white;
+}
+
+
 body {
-  margin: 0;
+  margin: 0px 100px !important;
+  background: azure;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height:100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 720px) {
+  html{
+    background: azure;
+  }
+}
+
+
+
