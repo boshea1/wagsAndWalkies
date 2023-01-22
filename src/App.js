@@ -5,7 +5,7 @@ import Index from './components/Index';
 import Footer from './components/Footer'
 
 function App() {
-  console.log("This is the process.env", process.env.PUBLIC_URL)
+  
 
   useEffect(() => {
     if (document) {

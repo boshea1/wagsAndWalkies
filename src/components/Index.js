@@ -12,7 +12,7 @@ import Error from './Error';
 const Index = () => {
   return (
     <>
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<Home/>} />
