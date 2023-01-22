@@ -12,7 +12,7 @@ import Error from './Error';
 const Index = () => {
   return (
     <>
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<Home/>} />
@@ -20,7 +20,7 @@ const Index = () => {
             <Route exact path='/contact' element={<Contact/>} />
             <Route exact path='*' element={<Error/>} />
         </Routes>
-    </Router>
+    </HashRouter>
     </>
   )
 }
