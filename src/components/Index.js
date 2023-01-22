@@ -12,7 +12,7 @@ import Error from './Error';
 const Index = () => {
   return (
     <>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<Home/>} />
