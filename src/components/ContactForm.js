@@ -32,7 +32,7 @@ const ContactForm = () => {
     );
   }
  
-  console.log('mes.current',mes.current)
+  
 
   return (
     <>
