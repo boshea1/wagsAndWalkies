@@ -36,7 +36,7 @@ const ContactForm = () => {
 
   return (
     <>
-    <h1 ref={mes} style={{margin:'40px 0 30px 0'}} >Or you can message us on the site and we'll get back to you</h1>
+    <h1 ref={mes} className='mess' style={{margin:'40px 0 30px 0'}} >Or you can message us on the site and we'll get back to you</h1>
     <form
       ref={form}
       onSubmit={sendEmail}
