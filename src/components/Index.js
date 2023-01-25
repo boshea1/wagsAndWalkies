@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Error from './Error';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Index = () => {

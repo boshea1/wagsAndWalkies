@@ -4,7 +4,7 @@ html {
 
 
 body {
-  margin: 0px 100px !important;
+  margin: 0px 100px;
   background: azure;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -23,6 +23,19 @@ code {
   html{
     background: azure;
   }
+}
+
+@media only screen and (max-width: 370px) {
+  html{
+    max-width: 360px;
+  }
+
+  body{
+    margin-left:0px;
+    margin-right: 0px;
+    width: 360px;
+  }
+  
 }
 
 

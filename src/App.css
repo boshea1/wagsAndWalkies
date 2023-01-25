@@ -114,6 +114,12 @@ ul {
     }
   }
 
+  .visi{
+    visibility: hidden;
+    position:absolute;
+    top:10px;
+  }
+
   @media only screen and (max-width: 625px) {
     
     .list{
@@ -124,31 +130,57 @@ ul {
       position:relative;
       left: -200px;
     }
+
+    .visi {
+      visibility:visible;
+    }
+
+    li{
+      visibility: hidden;
+    }
   }
 
   @media only screen and (max-width: 400px) {
     
     .mess{
-      width: 360px; 
+      width: 300px; 
       position: relative;
-      left:-80px;
+
+     
       
     }
 
     .containercontact{
       
-      border: solid black 1px;
+     
       width: 100%;
-      
-      
-      
+      padding:10px;
+    }
+    form{
+      margin:60px;
     }
     .App{
-      border:solid red 1px;
-      width: 300px;
+      width: 360px;
+      padding:10px;
     }
 
+    nav {
+      padding:10px;
+      padding-right: 30px;
+      justify-content:flex-start;
+    }
    
+
+    nav > div {
+      position:absolute;
+      left:20px !important;
+    }
+
+
+  }
+
+  .keycol > *{
+    background-color:whitesmoke !important;
   }
 
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import OffcanvasExample from './NavbarOffCanvas';
 
 const Navbar = () => {
   return (
@@ -8,6 +8,9 @@ const Navbar = () => {
         <div style={{background:'white', position: 'absolute', top: '30px', left: '150px', border: 'solid black 1px', padding: 5}}>
             <h1 style={{letterSpacing: '5px', fontWeight: 'lighter' }}>RBS</h1>
             <h1>Robbies Building Services</h1></div>
+            <div className = 'visi'>
+            <OffcanvasExample/>
+      </div>
         <ul className='list'>
             <li>
                 <Link to='/' className='btn'>Home</Link>
