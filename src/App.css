@@ -116,8 +116,12 @@ ul {
 
   .visi{
     visibility: hidden;
-    position:absolute;
-    top:10px;
+  }
+
+  .keycol{
+    left: 180px;
+    top: -20px;
+    border-radius: 10px;
   }
 
   @media only screen and (max-width: 625px) {
@@ -138,6 +142,13 @@ ul {
     li{
       visibility: hidden;
     }
+
+    .keycol > * > *{
+      background-color:whitesmoke !important;
+  
+      
+    }
+    
   }
 
   @media only screen and (max-width: 400px) {
@@ -179,9 +190,9 @@ ul {
 
   }
 
-  .keycol > *{
-    background-color:whitesmoke !important;
-  }
+ 
+
+ 
 
   
 
