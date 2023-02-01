@@ -3,11 +3,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+
+
+
+
 function OffcanvasExample() {
+  
+
+  
+
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3 keycol">
+        <Navbar collapseOnSelect key={expand} bg="light" expand={expand} className="mb-3 keycol"
+        >
           <Container fluid>
             {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
