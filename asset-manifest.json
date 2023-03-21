@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wagsAndWalkies/static/css/main.d8bfe403.css",
-    "main.js": "/wagsAndWalkies/static/js/main.a3d8720e.js",
+    "main.js": "/wagsAndWalkies/static/js/main.bc1a466e.js",
     "static/media/Walks and Waggy Tails-logos_black.png": "/wagsAndWalkies/static/media/Walks and Waggy Tails-logos_black.5a42a8f8397cba5b1ac6.png",
     "index.html": "/wagsAndWalkies/index.html",
     "main.d8bfe403.css.map": "/wagsAndWalkies/static/css/main.d8bfe403.css.map",
-    "main.a3d8720e.js.map": "/wagsAndWalkies/static/js/main.a3d8720e.js.map"
+    "main.bc1a466e.js.map": "/wagsAndWalkies/static/js/main.bc1a466e.js.map"
   },
   "entrypoints": [
     "static/css/main.d8bfe403.css",
-    "static/js/main.a3d8720e.js"
+    "static/js/main.bc1a466e.js"
   ]
 }
