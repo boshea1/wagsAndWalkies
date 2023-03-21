@@ -2,7 +2,7 @@
   "name": "wagsAndWalkies",
   "version": "0.1.0",
   "homepage": "https://github.com/boshea1/wagsAndWalkies",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
