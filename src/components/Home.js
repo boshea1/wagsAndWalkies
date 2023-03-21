@@ -8,7 +8,7 @@ const Home = () => {
       Home
       </h1>
       <div className='Content'>
-        <h3 style={{textAlign: 'center', fontFamily: 'Oswald'}}>We offer high quality building services</h3>
+        <h3 style={{textAlign: 'center', fontFamily: 'Oswald'}}>We offer professional dog walking and dog sitting</h3>
       </div>
       <div className='Sidebar'>
 
