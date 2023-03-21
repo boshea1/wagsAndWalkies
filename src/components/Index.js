@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Index = () => {
   return (
     <>
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<Home/>} />
