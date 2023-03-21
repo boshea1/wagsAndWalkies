@@ -1,7 +1,7 @@
 {
-  "name": "robbiebuildingwebsite",
+  "name": "wagsAndWalkies",
   "version": "0.1.0",
-  "homepage": "https://boshea.github.io/buildingserviceswebsite",
+  "homepage": "https://github.com/boshea1/wagsAndWalkies",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
